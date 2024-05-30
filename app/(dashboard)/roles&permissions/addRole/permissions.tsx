@@ -2,7 +2,7 @@ import React, { useState, ChangeEvent } from 'react';
 import CustomCheckbox from '@/app/components/ui/customCheckbox';
 import { Stack, Box, Typography, FormControlLabel, Checkbox, TableContainer, Table, TableHead, TableRow, TableCell, TableBody } from '@mui/material';
 import { Visibility, VisibilityOutlined, AutoFixHigh, AutoFixHighOutlined, BorderColor, BorderColorOutlined, Delete, DeleteOutline } from '@mui/icons-material';
-import CustomButton from '@/app/components/ui/customButton';
+import CustomButton from '@/app/components/ui/customButtonV2';
 import axios from 'axios';
 
 interface Record {

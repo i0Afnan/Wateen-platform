@@ -4,7 +4,7 @@ import React, { useState, ChangeEvent } from 'react';
 
 import { Stack, Box,Typography, FormControlLabel } from '@mui/material';
 import CustomCheckbox from '@/app/components/ui/customCheckbox';
-import CustomButton from '@/app/components/ui/customButton';
+import CustomButton from '@/app/components/ui/customButtonV2';
 
 type CheckboxStateKeys = 'inventory' | 'account' | 'suppliers' | 'catalog' | 'configuration';
 
